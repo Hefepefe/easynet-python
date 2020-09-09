@@ -16,7 +16,7 @@ for number in decimal_address:
     decimal_number=results.append(number)
     binary_number=results.append(bin(int(number)))
     hexadecimal_number=results.append(hex(int(number)))
-#Puts the IP adress into decimal, binary and hexadecimal
+#Puts the IP address into decimal, binary and hexadecimal
 
 table = [["Octet1",results[0],results[1],results[2]],
 ["Octet2",results[3],results[4],results[5]],
