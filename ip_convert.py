@@ -6,7 +6,7 @@ Prints out a prompted IP address in decimal, binary, and hex formatted in a tabl
 from tabulate import tabulate
 
 ip_address = input("Please Enter Your IP Address Separated With a Decimal(.):")
-#Prompts a user to input and IP address
+#Prompts a user to input an IP address
 
 decimal_address=ip_address.split(".")
 #Breaks the IP address into octets
