@@ -1,0 +1,16 @@
+Requirements:
+
+Ubuntu:
+
+Python 3 should be installed:
+	check with python3 --version
+
+Install pip3:
+	sudo apt install python3-pip
+
+Install tabulate:
+	pip3 install tabulate
+	
+Run program:
+	python3 hex-bin-dec.py
+	
